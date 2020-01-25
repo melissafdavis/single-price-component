@@ -1,0 +1,38 @@
+/*mobile-first */
+
+.container{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+.div-one{
+
+
+}
+
+h1{
+  color: hsl(179, 62%, 43%);
+}
+
+.div-one h3{
+  color: hsl(71, 73%, 54%);
+}
+
+.div-one p{
+  color: hsl(218, 22%, 67%)
+}
+
+.div-two{
+  /*color: white;*/
+
+
+}
+
+.subscription{
+  background-color: #2bb3b0;
+}
+
+.why-us{
+  background-color: #4abebc;
+
+}
