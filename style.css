@@ -154,9 +154,14 @@ button{
 /*desktop*/
 @media (min-width: 992px) { 
   
-  /* .div-one p{
-    font-size: 1.5em;
-  } */
+ .div-one {
+    padding: 14em;
+    text-align: left;
+  } 
+
+  h1{
+    font-size: 3em;
+  }
   
   .div-two{
     display: flex;
@@ -164,21 +169,17 @@ button{
   }
 
   .div-two p{
-    font-size: 4em;
+    font-size: 2em;
   }
   
   .subscription{
     width: 50%;
-   
   }
   
   .why-us{
     width: 50%;
-  
   }
 
-  
-  
   footer{
     background-color: white;
   }
