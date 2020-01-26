@@ -1,12 +1,28 @@
 /*mobile-first */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  
+}
 
 .container{
-  font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  
+  
+  /* width: 100%;
+  height: auto; */
 }
 
 .div-one{
-
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
 
 }
 
@@ -16,20 +32,41 @@ h1{
 
 .div-one h3{
   color: hsl(71, 73%, 54%);
+  margin-top: 1em;
 }
 
 .div-one p{
-  color: hsl(218, 22%, 67%)
+  color: hsl(218, 22%, 67%);
+  margin-top: 1em;
+  line-height: 2;
+  
 }
 
 .div-two{
-  /*color: white;*/
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
+.div-two h2{
+  margin-top: 1em;
+  font-size: 28px;
+}
 
+.div-two span{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #5ed3d0;
+}
+
+.div-two p{
+  color:#5ed3d0;
 }
 
 .subscription{
   background-color: #2bb3b0;
+  padding: 1.5em;
 }
 
 .why-us{
