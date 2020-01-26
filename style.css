@@ -15,8 +15,7 @@ html, body{
 .container{
   
   
-  /* width: 100%;
-  height: auto; */
+  
 }
 
 .div-one{
@@ -50,18 +49,20 @@ h1{
 }
 
 .div-two h2{
-  margin-top: 1em;
+  margin-top: .7em;
   font-size: 28px;
+  line-height: 2;
 }
 
 .div-two span{
   font-size: 16px;
   font-weight: lighter;
-  color: #5ed3d0;
+  color:#9ee4e6;
 }
 
 .div-two p{
-  color:#5ed3d0;
+  color: #9ee4e6;
+  line-height: 2;
 }
 
 .subscription{
@@ -71,5 +72,114 @@ h1{
 
 .why-us{
   background-color: #4abebc;
+  padding: 1em;
+  padding-bottom: 1.5em;
 
+}
+
+ul{
+  margin-top: 2vh;
+  list-style-type: none;
+  color: #9ee4e6;
+}
+
+button{
+  background-color: hsl(71, 73%, 54%);
+  padding: 1em;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 3vh;
+}
+
+footer{
+  /*background-color: #4abebc;*/
+  background-color: white;
+  padding: 2em;
+  border: none;
+}
+
+/*tablet*/
+@media (min-width: 768px) { 
+.div-one{
+  padding: 4em;
+  text-align: center;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+.div-one p{
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+.subscription{
+  text-align: center;
+  padding: 4em;
+}
+
+.why-us{
+  text-align: center;
+  padding: 4em;
+}
+.div-two h2{
+  margin-top: 1vh;
+  font-size: 3em;
+}
+h3{
+  font-size: 1.75em;
+}
+
+.div-two p{
+  font-size: 1.5em;
+}
+
+button{
+  width: 80%;
+  padding: 1.5em;
+  font-size: 1.5em;
+}
+
+.div-two li{
+  font-size: 1.5em;
+}
+
+
+
+}
+
+/*desktop*/
+@media (min-width: 992px) { 
+  
+  /* .div-one p{
+    font-size: 1.5em;
+  } */
+  
+  .div-two{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div-two p{
+    font-size: 4em;
+  }
+  
+  .subscription{
+    width: 50%;
+   
+  }
+  
+  .why-us{
+    width: 50%;
+  
+  }
+
+  
+  
+  footer{
+    background-color: white;
+  }
 }
