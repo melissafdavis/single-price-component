@@ -13,15 +13,16 @@ html, body{
 }
 
 .container{
-  
-  
-  
+  padding: 2em;
+  background-color: hsl(204, 43%, 93%);
+  margin-top: 2vh;
 }
 
 .div-one{
   display: flex;
   flex-direction: column;
   padding: 1.5em;
+  background-color: white;
 
 }
 
@@ -38,6 +39,7 @@ h1{
   color: hsl(218, 22%, 67%);
   margin-top: 1em;
   line-height: 2;
+  font-size: 13px;
   
 }
 
@@ -73,7 +75,7 @@ h1{
 .why-us{
   background-color: #4abebc;
   padding: 1em;
-  padding-bottom: 1.5em;
+  padding-bottom: 3em;
 
 }
 
@@ -91,12 +93,13 @@ button{
   border-radius: 10px;
   font-size: 16px;
   margin-top: 3vh;
+  box-shadow: 1px 2px #3b9f71;
 }
 
 footer{
   /*background-color: #4abebc;*/
-  background-color: white;
-  padding: 2em;
+  /*background-color: white;*/
+  padding: .6em;
   border: none;
 }
 
@@ -153,7 +156,10 @@ button{
 
 /*desktop*/
 @media (min-width: 992px) { 
-  
+  .container{
+    margin-top: 0;
+    padding: 4em;
+  }
  .div-one {
     padding: 8em;
     text-align: left;
@@ -169,7 +175,7 @@ button{
   }
 
   .div-one p{
-    font-size: 3em;
+    font-size: 2.6em;
     line-height: 1.5;
   }
   
@@ -195,6 +201,10 @@ button{
     
   }
 
+  .div-two span{
+    font-size: .5em;
+  }
+
   .div-two li{
     font-size: 2em;
   }
@@ -202,10 +212,13 @@ button{
   .subscription{
     width: 50%;
     text-align: left;
+    padding: 3em;
   }
 
   button{
     width: 70%;
+    font-size: 2em;
+    padding: 1.1em;
   }
   
   .why-us{
@@ -214,6 +227,7 @@ button{
   }
 
   footer{
-    background-color: white;
+    
+    padding: 1em;
   }
 }
