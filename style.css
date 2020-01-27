@@ -155,29 +155,62 @@ button{
 @media (min-width: 992px) { 
   
  .div-one {
-    padding: 14em;
+    padding: 8em;
     text-align: left;
   } 
 
   h1{
+    font-size: 4em;
+  }
+
+  .div-one h3{
     font-size: 3em;
+    
+  }
+
+  .div-one p{
+    font-size: 3em;
+    line-height: 1.5;
   }
   
   .div-two{
     display: flex;
     flex-direction: row;
+    
+  }
+
+  .div-two h3{
+    font-size: 2.5em;
+    
+    text-align: left;
+  }
+
+  .div-two h2{
+    
+    font-size: 4em;
   }
 
   .div-two p{
+    font-size: 2em;
+    
+  }
+
+  .div-two li{
     font-size: 2em;
   }
   
   .subscription{
     width: 50%;
+    text-align: left;
+  }
+
+  button{
+    width: 70%;
   }
   
   .why-us{
     width: 50%;
+    text-align: left;
   }
 
   footer{
