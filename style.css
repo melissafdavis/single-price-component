@@ -188,7 +188,7 @@ button{
   }
 
   .div-two h3{
-    font-size: 2.5em;
+    font-size: 2.2em;
     text-align: left;
   }
 
@@ -211,7 +211,7 @@ button{
   .subscription{
     width: 50%;
     text-align: left;
-    padding: 3em;
+    padding: 2.5em;
   }
 
   .subscription p{
@@ -220,7 +220,7 @@ button{
   }
 
   button{
-    width: 80%;
+    width: 100%;
     font-size: 2em;
     padding: .8em;
   }
@@ -228,7 +228,7 @@ button{
   .why-us{
     width: 50%;
     text-align: left;
-    padding: 3em;
+    padding: 2.5em;
   }
 
   .why-us ul{
@@ -237,6 +237,7 @@ button{
 
   .why-us li{
     font-size: 1.8em;
+    line-height: 1.4;
   }
 
   footer{
