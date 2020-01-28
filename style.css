@@ -15,7 +15,7 @@ html, body{
 .container{
   padding: 2em;
   background-color: hsl(204, 43%, 93%);
-  margin-top: 2vh;
+  margin: 0 auto;
 }
 
 .div-one{
@@ -158,36 +158,37 @@ button{
 @media (min-width: 992px) { 
   .container{
     margin-top: 0;
-    padding: 4em;
+    padding: 16em;
   }
  .div-one {
-    padding: 8em;
+    padding: 2em;
     text-align: left;
+    max-width: 90%;
   } 
 
   h1{
-    font-size: 4em;
+    font-size: 2.6em;
   }
 
   .div-one h3{
-    font-size: 3em;
+    font-size: 2em;
     
   }
 
   .div-one p{
-    font-size: 2.6em;
+    font-size: 1.8em;
     line-height: 1.5;
   }
   
   .div-two{
     display: flex;
     flex-direction: row;
-    
+    max-width: 90%;
+  
   }
 
   .div-two h3{
     font-size: 2.5em;
-    
     text-align: left;
   }
 
@@ -196,18 +197,16 @@ button{
     font-size: 4em;
   }
 
-  .div-two p{
+  /* .div-two p{
     font-size: 2em;
     
-  }
+  } */
 
   .div-two span{
     font-size: .5em;
   }
 
-  .div-two li{
-    font-size: 2em;
-  }
+  
   
   .subscription{
     width: 50%;
@@ -215,15 +214,29 @@ button{
     padding: 3em;
   }
 
+  .subscription p{
+    margin-top: 0;
+    font-size: 1.8em;
+  }
+
   button{
-    width: 70%;
+    width: 80%;
     font-size: 2em;
-    padding: 1.1em;
+    padding: .8em;
   }
   
   .why-us{
     width: 50%;
     text-align: left;
+    padding: 3em;
+  }
+
+  .why-us ul{
+    margin-top: 2em;
+  }
+
+  .why-us li{
+    font-size: 1.8em;
   }
 
   footer{
